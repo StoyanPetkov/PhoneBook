@@ -1,0 +1,26 @@
+﻿@model PhoneBook.ViewModels.GroupViewModel.GroupControllerGroupVM
+
+@{
+    ViewBag.Title = "ListGroups";
+}
+
+@Html.ActionLink("Add Group", "EditGroup", "Group", new {@id = 0 },null)
+
+
+    <h2>Groups</h2>
+
+    <table class="table">
+        @foreach (var item in Model.GroupList)
+        {
+            <tr>
+                <td>
+                    <label>@item.GroupName</label>
+                </td>
+                <td>
+                    @Html.ActionLink("Details","Details","Group", new { @id = item.Id },null) |
+                    @Html.ActionLink("Delete","Delete","Group", new {@id = item.Id },null)
+                </td>
+            </tr>
+        }
+    </table>
+@Html.ActionLink("Back","ListContact","Contact")

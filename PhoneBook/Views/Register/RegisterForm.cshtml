@@ -1,0 +1,51 @@
+﻿@model PhoneBook.ViewModels.RegisterViewModel.RegisterControllerRegisterVM
+
+@{
+    ViewBag.Title = "RegisterForm";
+}
+<br />
+<h2>Welcome to register form</h2>
+
+
+@using (Html.BeginForm("RegisterForm", "Register", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>
+                First name
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.FirstName) @Html.ValidationMessageFor(model => model.FirstName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Last name
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.LastName) @Html.ValidationMessageFor(model => model.LastName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Username
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.UserName) @Html.ValidationMessageFor(model => model.UserName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password
+            </td>
+            <td>
+                @Html.PasswordFor(model => model.Password) @Html.ValidationMessageFor(model => model.Password)
+            </td>
+        </tr>
+    </table>
+    <div>
+        <input type="submit" value="Register" />
+        @Html.ActionLink("Back", "Login", "Default")
+    </div>
+}
+

@@ -1,0 +1,69 @@
+﻿@model PhoneBook.ViewModels.ContactViewModel.ContactControllerEditContactVM
+
+@{
+    ViewBag.Title = "EditContactForm";
+}
+<br />
+
+<h2>InsertContact</h2>
+
+
+@using (Html.BeginForm("EditContactForm", "Contact", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.UserId)
+        @Html.HiddenFor(model => model.ImageLocation)
+        <table>
+            <tr>
+                <td>
+                    @Html.Label("Input full name")
+                    
+                </td>
+                <td style="text-align:left">
+                    @Html.TextBoxFor(model => model.FullName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.Label("Input Email")
+                </td>
+                <td style="text-align:left">
+                    @Html.TextBoxFor(model => model.Email)
+                </td>
+            </tr>
+               <tr>
+                   <td>
+                       @Html.Label("Input Birthday")
+                   </td>
+                   <td>
+                       @Html.TextBoxFor(model => model.BirthDay, "{0:MM-dd-yyyy}", new { @class = "birthday"})
+                   </td>
+               </tr>
+            <tr>
+                <td>
+                    @Html.ValidationMessageFor(model => model.FullName)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => Model.Email)
+                </td>
+            </tr>
+        </table>
+       @Html.ValidationMessageFor(model => model.file)
+    <br />
+
+        <label for="file">Upload Image:</label>    <input type="file" name="file" id="file" style="width:100%; height:100%" />
+        <div>
+            <input type="submit" value="Send" />
+            @Html.ActionLink("Back", "ListContact", "Contact")
+        </div>
+}
+<script>
+    $(function () {
+        $(".birthday").datepicker({
+            dateFormat: "mm-dd-yy",
+            changeMonth: true,
+            changeYear: true
+        })
+    });
+</script>
+

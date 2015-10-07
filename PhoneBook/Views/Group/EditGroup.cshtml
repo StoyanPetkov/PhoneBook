@@ -1,0 +1,35 @@
+﻿@model PhoneBook.ViewModels.GroupViewModel.GroupControllerGroupVM
+
+@{
+    ViewBag.Title = "EditGroup";
+}
+
+<h2>Add contact to group</h2>
+@using (@Html.BeginForm("EditGroup", "Group", FormMethod.Post,new { @id = Model.GroupId}))
+{
+    <table>
+        <tr>
+            <td>
+                @Html.Label("Group name")
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.groupName)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(model => model.groupName)
+            </td>
+        </tr>
+        @foreach (var item in Model.ContactList)
+        {
+            <tr>
+                <td>
+                    <label>@Html.DisplayFor(model => item.Text)</label>
+                    <input type="checkbox" name="ContactId" id="ContactId" value="@item.Value" checked="@item.Selected" />
+                </td>
+            </tr>
+
+        }
+    </table>
+    <input type="submit" value="Save" />
+}
+

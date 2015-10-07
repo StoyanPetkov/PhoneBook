@@ -1,0 +1,35 @@
+﻿@model PhoneBook.ViewModels.PhoneViewModel.PhoneControllerPhoneVM
+
+@{
+    ViewBag.Title = "EditPhone";
+}
+<br />
+<h2>EditPhone</h2>
+
+@using (Html.BeginForm("EditPhone", "Phone", FormMethod.Post))
+{
+    <div>
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.ParentContactId)
+        <table>
+            <tr>
+                <td>
+                    @Html.Label("Input number")
+                    @Html.TextBoxFor(model => model.phone)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.ValidationMessageFor(model => model.phone)
+                </td>
+            </tr>
+        </table>
+        
+       
+    </div>
+    <br />
+    <div>
+        <input type="submit" value="Save" />
+        @Html.ActionLink("Back", "ListPhones", "Phone", new { @parentId = Model.ParentContactId},null)
+    </div>
+}        

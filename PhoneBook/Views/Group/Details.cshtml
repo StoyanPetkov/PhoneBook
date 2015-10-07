@@ -1,0 +1,23 @@
+﻿@model PhoneBook.ViewModels.GroupViewModel.GroupControllerGroupVM
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.groupName</h2>
+
+@Html.ActionLink("Edit Group", "EditGroup", "Group", new { @id = Model.GroupId}, null)
+
+<table class="table">
+    @foreach (var item in Model.Contacts)
+    {
+        <tr>
+            <td>
+                @item.FullName
+            </td>
+            <td>
+                @item.Email
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,38 @@
+﻿@model PhoneBook.ViewModels.PhoneViewModel.PhoneControllerPhoneVM
+
+@{
+    ViewBag.Title = "ListPhones";
+}
+<br />
+<h2>Details <u><b>@Model.ContactName</b></u></h2>
+
+<p>
+    <b>@Html.ActionLink("Add new number", "EditPhone", "Phone", new { Model.ParentContactId, @id = 0 }, null)</b>
+</p>
+<br />
+<table class="table">
+    <tr>
+        <td>
+            <b>Numbers</b>
+        </td>
+        <td>
+            <b>Actions</b>
+        </td>
+    </tr>
+    @foreach (var item in Model.PhoneList)
+    {
+        <tr>
+            <td>
+                @item.PhoneNumber
+            </td>
+            <td>
+                @Html.ActionLink("Edit number", "EditPhone", "Phone", new { Model.ParentContactId,@id = item.Id}, null) |
+                @Html.ActionLink("Delete number", "Delete", "Phone", new { Model.ParentContactId,@id = item.Id }, null)
+            </td>
+        </tr>
+    }
+    @Html.ActionLink("Back to contact", "ListContact", "Contact")
+</table>
+
+
+

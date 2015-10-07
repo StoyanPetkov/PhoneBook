@@ -1,0 +1,44 @@
+﻿@model PhoneBook.ViewModels.NoteViewModel.NoteControllerNoteVM
+
+@{
+    ViewBag.Title = "ListNotes";
+}
+<br />
+<h2>Notes <u><b>@Model.ContactName</b></u></h2>
+
+<p>
+    <b>@Html.ActionLink("New Note", "EditNote", "Note", new { Model.ParentContactId, @id = 0 }, null)</b>
+</p>
+
+
+<table class="table">
+    <tr>
+        <td>
+            <b>Description</b>
+        </td>
+        <td>
+            <b>
+                Text
+            </b>
+        </td>
+        <td>
+            <b>Actions</b>
+        </td>
+    </tr>
+    @foreach (var item in Model.NoteList)
+    {
+        <tr>
+            <td>
+                @item.Description
+            </td>
+            <td>
+                @item.Text
+            </td>
+            <td>
+                @Html.ActionLink("Edit note", "EditNote", "Note", new { Model.ParentContactId, @id = item.Id }, null) |
+                @Html.ActionLink("Delete note", "Delete", "Note", new { Model.ParentContactId, @id = item.Id }, null)
+            </td>
+        </tr>
+    }
+</table>
+@Html.ActionLink("Back to contact", "ListContact", "Contact")

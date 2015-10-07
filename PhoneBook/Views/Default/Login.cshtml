@@ -1,0 +1,36 @@
+﻿@model PhoneBook.ViewModels.DefaultViewModel.DefaultControllerDefaultLoginVM
+
+@{
+    ViewBag.Title = "Login";
+}
+<br />
+
+@using (Html.BeginForm("Login", "Default", FormMethod.Post))
+{
+    <div>
+        <table>
+            <tr>
+                <td>
+                    @Html.Label("Username")
+                    @Html.TextBoxFor(model => model.Username)
+                </td>
+                <td>
+                    @Html.Label("Password")
+                    @Html.PasswordFor(model => model.Password)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Username)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Password)
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <br />
+        <input type="submit" value="Log In" />
+    </div>
+}

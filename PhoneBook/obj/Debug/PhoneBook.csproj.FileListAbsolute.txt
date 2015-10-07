@@ -1,0 +1,74 @@
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\PhoneBook.dll.config
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\PhoneBook.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\PhoneBook.pdb
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\EntityFramework.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\EntityFramework.SqlServer.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Helpers.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Mvc.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Razor.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Webpages.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Webpages.Razor.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\EntityFramework.xml
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\EntityFramework.SqlServer.xml
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Razor.xml
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Webpages.xml
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Webpages.Razor.xml
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Helpers.xml
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\bin\System.Web.Mvc.xml
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.dll
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Migrations.Init.resources
+C:\Users\Stoyan\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\PhoneBook.dll.config
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\PhoneBook.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\PhoneBook.pdb
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\EntityFramework.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\EntityFramework.SqlServer.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Helpers.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Mvc.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Razor.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Webpages.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Webpages.Razor.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\EntityFramework.xml
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\EntityFramework.SqlServer.xml
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Razor.xml
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Webpages.xml
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Webpages.Razor.xml
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Helpers.xml
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\bin\System.Web.Mvc.xml
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\obj\Debug\PhoneBook.Migrations.Init.resources
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\obj\Debug\PhoneBook.dll
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\Stoyan\Desktop\PhoneBookHomeEdition\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\PhoneBook.dll.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\PhoneBook.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\PhoneBook.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\EntityFramework.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\EntityFramework.SqlServer.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Helpers.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Mvc.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Razor.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Webpages.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Webpages.Razor.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\EntityFramework.xml
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\EntityFramework.SqlServer.xml
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Razor.xml
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Webpages.xml
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Webpages.Razor.xml
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Helpers.xml
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\System.Web.Mvc.xml
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.dll
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Migrations.InitGroup.resources
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Migrations.group_edit.resources

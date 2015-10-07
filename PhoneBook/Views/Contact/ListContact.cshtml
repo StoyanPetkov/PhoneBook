@@ -1,0 +1,76 @@
+﻿@model PhoneBook.ViewModels.ContactViewModel.ContactControllerContactVM
+
+@{
+    ViewBag.Title = "ListContact";
+    string directory = Server.MapPath(@"~/images/");
+}
+<h2>Contact list</h2>
+
+<p>
+    <b>@Html.ActionLink("Create New", "EditContactForm", "Contact", new { @id = 0 }, null)</b>
+</p>
+
+<table class="table">
+    @using (Html.BeginForm("ListContact", "Contact", FormMethod.Post))
+    {
+        <tr>
+            <td>
+                @Html.RadioButtonFor(model => model.FullNameIsChecked, "true", new { id = "Mail" }) <b>Full name</b>
+            </td>
+            <td>
+                @Html.RadioButtonFor(model => model.FullNameIsChecked, "false", new { id = "Mail" }) <b>E-Mail</b>
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.LookingFor) <input type="submit" value="Sort" />
+            </td>
+            @Html.HiddenFor(model => model.ImageLocation)
+        </tr>
+    }
+</table>
+<table class="table">
+    <tr>
+        <td></td>
+        <td>
+            <b>Full Name</b>
+        </td>
+        <td>
+            <b>E-Mail</b>
+        </td>
+        <td>
+            <b>Actions</b>
+        </td>
+    </tr>
+    @foreach (var item in Model.ContactList)
+    {
+        <tr>
+            <td>
+                @if (item.ImageLocation != null)
+                {
+                    <img src="@item.ImageLocation" alt="Smiley face" width="128" height="128">
+                }
+                else
+                {
+                    <img src="/images/default.jpg" alt="empty profile picture" height="128" width="128" />
+                }
+            </td>
+            <td>
+                @item.FullName
+            </td>
+            <td>
+                @item.Email
+            </td>
+            <td>
+                @Html.ActionLink("Edit contact", "EditContactForm", "Contact", new { @id = item.Id }, null) |
+                @Html.ActionLink("Details", "ListPhones", "Phone", new { @parentId = item.Id }, null) |
+                @Html.ActionLink("Notes", "ListNotes", "Note", new { @parentId = item.Id }, null) |
+                @Html.ActionLink("Delete contact", "Delete", "Contact", new { @id = item.Id }, null)
+            </td>
+            @if (DateTime.Now.Month == item.BirthDay.Month && DateTime.Now.Day == item.BirthDay.Day)
+                {
+                <td>
+                    @Html.Label("BirthDay ToDay !")
+                </td>
+            }
+        </tr>
+    }
+</table>

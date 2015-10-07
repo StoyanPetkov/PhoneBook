@@ -1,0 +1,34 @@
+﻿@model PhoneBook.ViewModels.NoteViewModel.NoteControllerNoteVM
+
+@{ 
+    ViewBag.Title = "EditNote";
+}
+<br />
+<h2>EditNote</h2>
+
+@using (Html.BeginForm("EditNote", "Note", FormMethod.Post))
+{
+    <div>
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.ParentContactId)
+        <table>
+            <tr>
+                <td>
+                    @Html.Label("Input note description")
+                    @Html.TextBoxFor(model => model.description)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.Label("Input note text")
+                    @Html.TextAreaFor(model => model.note)
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <div>
+        <input type="submit" value="Save" />
+        @Html.ActionLink("Back", "ListNotes", "Note", new { @parentId = Model.ParentContactId }, null)
+    </div>
+}        
